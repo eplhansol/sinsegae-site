@@ -1,0 +1,7 @@
+# 테스트 열람용 사이트 — 검색 색인 차단
+# 신세계안과의원 · 실제 배포 도메인은 https://gwangju-eye.co.kr 입니다.
+User-agent: *
+Disallow: /
+
+User-agent: Yeti
+Disallow: /
