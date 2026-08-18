@@ -5,7 +5,7 @@
 # 딸려 나가므로 폴더를 나눈다.
 
 name = "sinsegae-site"
-compatibility_date = "2026-08-13"
+compatibility_date = "2026-08-10"
 
 [assets]
 directory = "./public/"
