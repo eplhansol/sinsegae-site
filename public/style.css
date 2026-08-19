@@ -31,6 +31,14 @@ main{padding:56px 0 0}
 
 /* 1) 포스트 그리드 3열 — 레퍼런스 uagb-post-grid 대응 */
 .post-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.storysec{margin:54px 0 0;padding-top:34px;border-top:1px solid var(--line)}
+.storysec>h2{font-size:22px;margin:0 0 20px}
+.story-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px 26px}
+.scard{border:1px solid var(--line);border-radius:12px;background:#fff;padding:18px 20px}
+.scard h4{margin:0 0 6px;font-size:16px;line-height:1.45}
+.scard h4 a{color:inherit;text-decoration:none}
+.scard h4 a:hover{text-decoration:underline}
+.scard p{margin:8px 0 10px;font-size:14px;color:var(--muted);line-height:1.7}
 .pcard{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;
  display:flex;flex-direction:column;transition:.18s}
 .pcard:hover{box-shadow:0 12px 32px rgba(15,141,128,.11);transform:translateY(-3px);border-color:var(--teal)}
@@ -46,6 +54,7 @@ main{padding:56px 0 0}
 .pcard:hover .more a::after{width:26px}
 @media(max-width:940px){.post-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){.post-grid{grid-template-columns:1fr}}
+@media(max-width:760px){.story-grid{grid-template-columns:1fr}}
 
 /* 2) 본문 조판 이미지 (레퍼런스의 블로그 스샷 자리) */
 .spec{margin:var(--gap-block) auto 0;max-width:768px}
