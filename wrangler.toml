@@ -3,14 +3,9 @@
 # 이 저장소는 이미 완성된 정적 사이트다. 빌드할 것이 없다.
 # 파일은 public/ 안에 둔다. 루트를 지정하면 이 설정 파일까지 사이트에
 # 딸려 나가므로 폴더를 나눈다.
-#
-# src/index.js 는 주소를 대표 주소 하나로 모으는 일만 한다 (http·www·슬래시).
-# 그 밖의 요청은 전부 ASSETS 로 넘어가므로 지금까지와 똑같이 동작한다.
 
 name = "sinsegae-site"
 compatibility_date = "2026-08-10"
-main = "src/index.js"
 
 [assets]
 directory = "./public/"
-binding = "ASSETS"
