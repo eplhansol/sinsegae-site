@@ -197,6 +197,13 @@ table.tm-l{margin:34px 0 20px}
  .home-head h1{font-size:1.52rem}}
 
 /* 홈 하단 정보 (home_intro.html) */
+.landing{max-width:900px;margin:var(--gap-block) auto 0}
+.landing .facts{list-style:none;padding:0;margin:18px 0 22px;display:grid;gap:10px}
+.landing .facts li{padding:12px 16px;background:var(--soft);border-radius:8px;font-size:.96rem;line-height:1.7}
+.landing .facts b{color:var(--teal-d);margin-right:8px}
+.landing .faq-item{border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:10px 0}
+.landing .faq-item summary{font-weight:700;cursor:pointer;color:var(--ink)}
+.landing .faq-item p{margin:10px 0 0;color:var(--body);line-height:1.75}
 .home-intro{margin-top:var(--gap-block);max-width:820px}
 .home-intro h2{font-size:1.62rem;font-weight:800;color:var(--ink);letter-spacing:-.03em;
  margin:0 0 18px;padding-bottom:14px;border-bottom:2px solid var(--teal)}
